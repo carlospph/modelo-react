@@ -1,10 +1,10 @@
 
 import React from 'react';
 
-export default function Sobre() {
+export default function Error404() {
   return (
     <div>
-      <h1>Sobre Nós</h1>
+      <h2>Sobre Nós</h2>
       <p>Conheça mais sobre nossa empresa.</p>
     </div>
   );

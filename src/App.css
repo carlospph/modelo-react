@@ -1,4 +1,12 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+}
 .app {
   min-height: 100vh;
   display: flex;
@@ -7,4 +15,21 @@
 
 main {
   flex: 1;
+}
+ 
+h2{
+  font-size: 2.1rem;
+}
+
+.nav-link{
+  border-left: 3px solid blue;
+  padding: .5rem 1rem;
+  display: block;
+  max-width: 180px;
+  margin: .5rem 0;
+}
+
+.nav-link:hover{
+  border-left: 3px solid orange;
+  transition: all .5s;
 }

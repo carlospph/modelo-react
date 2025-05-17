@@ -1,10 +1,10 @@
 
 import React from 'react';
 
-export default function Servicos() {
+export default function Contatos() {
   return (
     <div>
-      <h1>Nossos Serviços</h1>
+      <h2>Nossos Serviços</h2>
       <p>Conheça os serviços que oferecemos.</p>
     </div>
   );

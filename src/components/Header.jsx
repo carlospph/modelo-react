@@ -4,13 +4,16 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header style={{ padding: '1rem', backgroundColor: '#f0f0f0' }}>
+    <header>
+
+      <div className="navbar-toools--container">
+        
+      </div>
       <nav>
-        <Link to="/" style={{ margin: '0 10px' }}>Home</Link>
-        <Link to="/sobre" style={{ margin: '0 10px' }}>Sobre</Link>
-        <Link to="/servicos" style={{ margin: '0 10px' }}>Serviços</Link>
-        <Link to="/produtos" style={{ margin: '0 10px' }}>Produtos</Link>
-      </nav>
+        <Link to="/">Home</Link>
+        <Link to="/about">Sobre</Link>
+        <Link to="/contatos" >Contatos</Link>
+       </nav>
     </header>
   );
 }
