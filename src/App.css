@@ -9,42 +9,12 @@
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .navbar{
-=======
-//organizar o navbar
-.navbar{
-  display:flex;
-  align-items:center;
-  justify-content: space-between;
-  margin:0 auto;
-  max-width: 1200px;
-  padding: .5rem;
-}
-
-.app {
-  min-height: 100vh;
->>>>>>> cbc96914adfbe517dc2df6378f8c36213bd8f855
   display: flex;
   justify-content: space-between;
 }
 
 
-<<<<<<< HEAD
 .menu{
   display: flex;
 }
-=======
-.nav-link{
-  border-left: 3px solid blue;
-  padding: .5rem 1rem;
-  display: block;
-  max-width: 180px;
-  margin: .5rem 0;
-}
-
-.nav-link:hover{
-  border-left: 3px solid orange;
-  transition: all .5s;
-}
->>>>>>> cbc96914adfbe517dc2df6378f8c36213bd8f855
