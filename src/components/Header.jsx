@@ -5,15 +5,17 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header>
-
-      <div className="navbar-toools--container">
-        
-      </div>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">Sobre</Link>
-        <Link to="/contatos" >Contatos</Link>
-       </nav>
+      <nav className='navbar'>
+        <Link to="/" className="logo">CN::React</Link>
+        <ul>
+          <li>
+            <Link to="/about">Sobre</Link>
+          </li>
+          <li>
+            <Link to="/contatos" >Contatos</Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }
